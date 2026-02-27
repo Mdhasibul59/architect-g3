@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    margin: 0;
+}
+
+
+
+/* Header Navbar Styles */
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 1.8rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+}
+
+
+/* Header Banner Styles */
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description {
+    color: #727272;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* Main Section-1 Styles */
+ 
+.main-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 85px auto;
+}
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-content-container {
+    padding: 0 70px;
+}
+
+
+
+
+
+.quick-list {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #727272;
+}
+
+.of-our {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #131313;
+}
+
+.features {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FF900E;
+}
+.team-description {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+
+/* Shared styles */
+.display-flex {
+    display: flex;
+}
+.bg-color-1 {
+    background-color: rgba(252, 141, 14, 0.1);
+}
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-explore{
+    color: #ffffff;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+
+
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column-reverse;
+    }
+    .nav-links {
+        flex-direction: row;
+    }
+    .main-1 {
+        flex-direction: column;
+    }
+    .team-image-container {
+        flex-direction: column;
+    }
+}
