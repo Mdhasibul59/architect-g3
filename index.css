@@ -56,6 +56,8 @@ body {
 .banner-image {
     width: 100%;
     margin-bottom: 50px;
+    border: .5px solid none;
+    border-radius: 30px;
 }
 
 /* Main Section-1 Styles */
@@ -75,11 +77,13 @@ body {
     gap: 24px;
 }
 .team-content-container {
-    padding: 0 70px;
+    padding: 0 70px
 }
 
 .main-img {
-    width: 100%;
+    /* width: 100%; */
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
 
@@ -153,7 +157,7 @@ body {
         flex-direction: column;
     }
     .team-image-container {
-        grid-template-columns: max-content;
+        grid-template-columns: repeat(1, 1fr);
     }
     .team-content-container {
         display: flex;
@@ -161,8 +165,10 @@ body {
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        
     }
     .team-title, .team-description {
         padding-right: 20px;
+        text-align: center;
     }
 }
