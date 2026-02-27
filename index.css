@@ -77,8 +77,9 @@ body {
     padding: 0 70px;
 }
 
-
-
+.main-img {
+    width: 100%;
+}
 
 
 .quick-list {
@@ -151,6 +152,17 @@ body {
         flex-direction: column;
     }
     .team-image-container {
+        grid-template-columns: max-content;
+    }
+    .team-content-container {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .team-title, .team-description {
+        padding-right: 20px;
     }
 }
