@@ -149,19 +149,24 @@ body {
     margin-bottom:  1.25rem;
     padding: 1.2rem;
 }
-.column-1 {
+/* .column-1 {
     padding: 35px 50px 35px;
-    padding-left: 0;
+    padding-left: 0; */
+}
+.column-2 {
+    width: 100%;
+    margin: 0 auto;
 }
 .feautre-img {
-    width: 100dvh;
+    /* width: 100%;
     padding-top: 90px;
     padding-left: 90px;
+    padding-right: 90px; */
     position: relative;
     display: inline-block;
 }
 .feautre-img img {
-    display: block;
+    /* display: block; */
     border-radius: 10px;
 }
 .not-btn {
@@ -222,9 +227,9 @@ body {
 }
 
 
-.hide {
+/* .hide {
     display: none;
-}
+} */
 
 
 
