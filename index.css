@@ -111,6 +111,82 @@ body {
     margin-bottom: 32px;
 }
 
+/* Feature Section Styles */
+
+.feature-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.heading-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.875rem;
+    padding-right: 4rem;
+}
+.feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.feature-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.main-2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature-type {
+    width: 36.625rem;
+    height: 9.5rem;
+    background-color: rgba(245, 244, 244, 0.429);
+    border: 1px solid none;
+    border-radius: 8px;
+    margin-bottom:  1.25rem;
+    padding: 1.2rem;
+}
+.column-1 {
+    padding: 35px 50px 35px;
+    padding-left: 0;
+}
+.feautre-img {
+    width: 100dvh;
+    padding-top: 90px;
+    padding-left: 90px;
+    position: relative;
+    display: inline-block;
+}
+.feautre-img img {
+    display: block;
+    border-radius: 10px;
+}
+.not-btn {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 21rem;
+    height: 9rem;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #FF900E;
+    text-align: center;
+    padding-top: 4%;
+    position: absolute;
+    bottom: -130px;
+    left: 20px;
+}
+.eperience {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+
 
 
 /* Shared styles */
@@ -133,11 +209,22 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
 }
+.dark-1 {
+    color: #131313;
+}
+.dark-3 {
+    color: #727272;
+}
+.display-block {
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 
 
-/* .hide {
+.hide {
     display: none;
-} */
+}
 
 
 
