@@ -18,6 +18,7 @@ body {
 .brand {
     font-weight: 700;
     font-size: 3rem;
+    padding-left: 20px;
 }
 .navbar {
     justify-content: space-between;
@@ -111,7 +112,7 @@ body {
     margin-bottom: 32px;
 }
 
-/* Feature Section Styles */
+/* Main Section-2 Styles */
 
 .feature-heading {
     font-size: 3rem;
@@ -136,7 +137,7 @@ body {
 }
 .main-2 {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 85px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -165,6 +166,7 @@ body {
     position: relative;
     display: inline-block;
 }
+
 .feautre-img img {
     /* display: block; */
     border-radius: 10px;
@@ -262,5 +264,11 @@ body {
     .team-title, .team-description {
         padding-right: 20px;
         text-align: center;
+    }
+    .main-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .not-btn {
+        left: 190px;
     }
 }
