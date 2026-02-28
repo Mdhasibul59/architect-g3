@@ -15,6 +15,10 @@ body {
 
 /* Header Navbar Styles */
 
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .brand {
     font-weight: 700;
     font-size: 3rem;
@@ -259,6 +263,8 @@ body {
 footer {
     background-color: rgba(255, 144, 14, 0.1);
     margin-bottom: 6rem;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .f-content {
